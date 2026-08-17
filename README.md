@@ -30,12 +30,6 @@ student-performance-project/
 └── requirements.txt
 
 **Key Findings**
-- There are no null values
-- There are no duplicates
-- There are anomalies spotted as G3 = 0, which should be considered when cleaning the data.
-- There is an extreme outlier with abscences as the 75% quartile is 8, however, the max is 75. 
-- In general the pass rate is higher in Portuguese in comparison to math.
-- Some columns are stated as int type, when they are ordinal numbers or categories. Must pay attention when dealing with them.
 •  Data Quality: Zero missing (null) values and zero duplicate rows across both datasets.
 •  Anomalies Identified: Multiple instances where final grade $G3 = 0$ (students who dropped out or missed final exams), requiring special handling during data cleaning.
 •  Outliers: Significant right-skew in absences (e.g., $75\%$ quartile is $8$, but maximum reaches $75$).
